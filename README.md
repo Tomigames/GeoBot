@@ -9,8 +9,8 @@ Geobot ha tenido un reinicio, el repositorio fue borrado y re-creado. Puedes ver
 # Creditos
 ### Hecho con
 
-Python - Lenguaje de programacion
-Discord.py - Wrapper para Discord
+- [Python](https://www.python.org/) - Lenguaje de programacion
+- [Discord.py](https://github.com/rapptz/discord.py#discordpy) - Wrapper para Discord
 
 ### Hecho por
 [Fellox](https://github.com/Fellox) - Autor
