@@ -2,6 +2,7 @@
 #https://github.com/Fellox/Geobot
 import discord
 from discord.ext import commands
+import random
 
 bot = commands.Bot(command_prefix='g!')
 TOKEN = 'NTQ4MjgzOTU1MDc0MzAxOTcy.XMjQhg._scWw4Rxz2TvKLwfk7_1bMEUfqg'
@@ -27,6 +28,9 @@ async def ayuda(ctx):
 
     `g!ayuda`
     Envia este mensaje
+
+    `g!randint`
+    Genera un numero
     ===============================
     ''')
 
@@ -35,4 +39,8 @@ async def shutdown(ctx):
     await ctx.send('Shuting down internal server.')
     exit()
 
+@bot.command()
+async def randint(ctx):
+    number = random.randint(1, 10)
+    await ctx.send('El numero elejido fue: `' + str(number) + '`')
 bot.run(TOKEN)
