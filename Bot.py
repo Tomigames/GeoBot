@@ -43,4 +43,17 @@ async def shutdown(ctx):
 async def randint(ctx):
     number = random.randint(1, 10)
     await ctx.send('El numero elejido fue: `' + str(number) + '`')
+
+@bot.command()
+async def kick(ctx, member : discord.Member, *, reason):
+    await member.send(f'Fuiste expulsado del servidor por: "{reason}"')
+    await member.kick(reason=reason)
+
+@bot.command()
+async def pembed(ctx):
+    embed = discord.Embed(title='Titulo', description='descripcion', colour= discord.Colour.green)
+    embed.set_footer(text='Texto')
+
+    ctx.send(embed=embed)
+
 bot.run(TOKEN)
