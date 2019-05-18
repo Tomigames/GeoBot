@@ -1,7 +1,11 @@
 # Geobot 🌍
 Bot personalizado para servidor de Discord de Geoblock.
+- Mira la pagina de estado [aqui](http://geostatus.ddns.net)
 #### Licencia
 Puedes leer la licensia del repositorio en [LICENSE](https://github.com/Fellox/Geobot/blob/master/LICENSE)
+
+#### Teasers
+- ![teaser1](https://i.imgur.com/DcSo6jJ.png)
 
 # Estado de Desarrollo
 Geobot ha tenido un reinicio, el repositorio fue borrado y re-creado. Puedes ver todas las versiones del bot en [releases](https://github.com/Fellox/Geobot/releases)

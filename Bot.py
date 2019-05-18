@@ -5,7 +5,7 @@ from discord.ext import commands
 import random
 
 bot = commands.Bot(command_prefix='g!')
-TOKEN = 'NTQ4MjgzOTU1MDc0MzAxOTcy.XMjQhg._scWw4Rxz2TvKLwfk7_1bMEUfqg'
+TOKEN = 'e.e'
 
 @bot.event
 async def on_ready():
