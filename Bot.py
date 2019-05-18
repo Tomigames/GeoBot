@@ -55,4 +55,9 @@ async def pembed(ctx):
 
     ctx.send(embed=embed)
 
+@bot.command()
+async def kick(ctx, user : discord.Member, *, reason=None):
+    await member.send(f'Has sido expulsado/a del servidor por: `{reason}`.')
+    await member.kick(reason=reason)
+    
 bot.run(TOKEN)
