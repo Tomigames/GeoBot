@@ -5,7 +5,7 @@ from discord.ext import commands
 import random
 
 bot = commands.Bot(command_prefix='g!')
-TOKEN = 'NTQ4MjgzOTU1MDc0MzAxOTcy.XMjQhg._scWw4Rxz2TvKLwfk7_1bMEUfqg'
+TOKEN = ''//no muestres el token te pueden hackear el bot con el token!
 @bot.event
 async def on_ready():
     channel = bot.get_channel(547600921035669516)
